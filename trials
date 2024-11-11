@@ -1,0 +1,75 @@
+
+
+# # num = [8,4,6,3,2,1,5]
+# name = ["kojo","abena","john","fati"]
+# for i in range (len(name)):
+#     # print(i)
+#   for j in range(i+1,len(name)):
+#     if name[i] > name[j]:
+#       name[i],name[j] = name[j],name[i]
+# # print(name)            
+# def decimal_into_binary(num):
+#     value = num // 4
+#     return value
+
+
+# num = int(input("enter your number"))
+# if (num >= 10):
+#     decimal_into_binary (num//2)
+# print(num%2,end='')
+
+# decimal_into_binary(20)
+
+# def count_vawels(word,vawels):
+    
+#   sum = 0
+#   for i in word:
+#     if(i in vawels):
+#         sum+=1
+#   return sum
+# word = input("enter yuor word: ")
+# vawels = ['a','e','i','o','u']
+# print(count_vawels(word,vawels))
+
+def credits_card(credits):
+    
+  if (len(credits) > 16) or (len(credits) < 16):
+    print("incomplete number or number more than try again........")    
+  else:
+    print(credits[-4:].rjust(len(credits), "*"))
+
+credits = input("enter your number: ")
+
+credits_card(credits)
+
+# def x_s(x):
+  
+#   sum_x=0
+#   sum_s=0
+#   for i in x :
+#    if(i == 'x'):
+#     sum_x+=1
+#   if(i =='s'):
+#     sum_s+=1
+#   return  sum_x == sum_s   
+
+# word = "boxes"
+# print(x_s(word))
+  
+
+
+# def calculator(input1 , operation,input2):
+
+#   if (operation == "+"):
+#    return input1 + input2
+#   elif(operation == "-"):
+#    return input1 - input2
+#   elif(operation == "*"):
+#    return input1 
+
+
+# num1 = int(input("enter input1: "))
+# operation = input("enter your operation: ")
+# num2 = int(input("enter input2: "))
+
+# print(calculator(num1,operation,num2))

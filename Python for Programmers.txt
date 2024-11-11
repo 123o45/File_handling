@@ -1,0 +1,6 @@
+Python for Programmers
+Top 10 beginner Python code challenges
+These are beginner-level challenges, but you need to know the Python programming language to complete them. If your Python skills are a little rusty, check out Learn Python 3 for a course that’s suitable for beginners.
+
+You can code your solutions locally if you have a development environment already set up. If not, try out one of the many sites that will allow you to execute Python code in the browser. And if you get stuck, search Google for help solving the problem, but don’t do it too soon. Give it your best shot first.
+
